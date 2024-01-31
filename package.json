@@ -1,0 +1,14 @@
+{
+  "name": "hangman-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd hangman-frontend && npm install && cd .. && cd server && npm install",
+    "start": "cd server && npm run start",
+    "build": "cd hangman-frontend && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
