@@ -6,7 +6,6 @@
   gap: 10px;
   margin-bottom: 20px;
   touch-action: manipulation; /* Enable touch events on mobile */
-}
 
 button {
   font-size: 16px;
@@ -18,7 +17,8 @@ button {
 
 button.used {
   opacity: 0.5; /* Set opacity for used letters */
-} */
+}
+*/
 
 /* button[disabled] {
   cursor: not-allowed;
