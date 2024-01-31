@@ -6,7 +6,7 @@
   "scripts": {
     "install": "cd hangman-frontend && npm install && cd .. && cd server && npm install",
     "start": "cd server && npm run start",
-    "build": "cd hangman-frontend && npm run build"
+    "build": "npm install && cd hangman-frontend && npm run build"
   },
   "keywords": [],
   "author": "",
