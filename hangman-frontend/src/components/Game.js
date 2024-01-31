@@ -347,7 +347,7 @@ const Game = () => {
 
   const fetchRandomWord = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/game/random");
+      const response = await axios.get("/api/game/random");
 
       if (!response.data || !response.data.word || !response.data.category) {
         console.error("Invalid response format:", response.data);
