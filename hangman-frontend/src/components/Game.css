@@ -1,0 +1,40 @@
+/* src/components/Game.css */
+/* Game.css */
+.game-container {
+  margin-top: 50px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.category-section {
+  background-color: #7ac7d2b9;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.word-display span {
+  display: inline-block;
+  margin: 0 5px; /* Add spacing between letters */
+  font-size: 44px;
+}
+
+/* style for the refresh button */
+button.refresh {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button.refresh:hover {
+  background-color: #1c5a32;
+}

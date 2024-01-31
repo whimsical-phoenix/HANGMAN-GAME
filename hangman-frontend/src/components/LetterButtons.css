@@ -1,0 +1,26 @@
+/* LetterButtons.css */
+
+.letter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  touch-action: manipulation; /* Enable touch events on mobile */
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  touch-action: manipulation; /* Enable touch events on mobile */
+  transition: opacity 0.3s ease; /* Add a transition effect for opacity */
+}
+
+button.used {
+  opacity: 0.5; /* Set opacity for used letters */
+}
+
+/* button[disabled] {
+  cursor: not-allowed;
+  background-color: #ccc;
+} */
