@@ -334,6 +334,7 @@ import axios from "axios";
 import WordDisplay from "./WordDisplay";
 import LetterButtons from "./LetterButtons";
 import "./Game.css"; // Import a CSS file for styling
+import BackgroundCanvas from "./BackgroundCanvas";
 
 const Game = () => {
   const [word, setWord] = useState("");
@@ -445,9 +446,12 @@ const Game = () => {
           ---------
           `,
     ];
-
-    return hangmanFigures.slice(0, incorrectGuesses + 1).join("\n");
+    const hangmanFigure = hangmanFigures[incorrectGuesses];
+    return `${hangmanFigure}`;
   };
+
+  //   return hangmanFigures.slice(0, incorrectGuesses + 1).join("\n");
+  // };
 
   const isGameWon = () => {
     const uniqueLetters = new Set(word.replace(/\s/g, ""));
@@ -470,6 +474,7 @@ const Game = () => {
       className="game-container"
       onKeyDown={handleLetterKeyDown}
       tabIndex={0}>
+      <BackgroundCanvas />
       {/* New: Category Section */}
       <div className="category-section">
         <p>Category: -{category}-</p>

@@ -1,8 +1,8 @@
 /* src/components/Game.css */
 /* Game.css */
-.game-container {
-  margin-top: 50px;
-}
+/* .game-container {
+  height: 100rem;
+} */
 
 html,
 body {
@@ -11,9 +11,10 @@ body {
 }
 
 .category-section {
-  background-color: #7ac7d2b9;
+  background-color: #24074286;
   padding: 10px;
   margin-bottom: 20px;
+  margin-top: 0;
   font-size: 2em;
 }
 
@@ -37,4 +38,15 @@ button.refresh {
 
 button.refresh:hover {
   background-color: #1c5a32;
+}
+
+.hangman-figure {
+  font-family: monospace;
+  white-space: pre-wrap;
+  font-weight: 300;
+}
+
+pre {
+  font-weight: 800;
+  font-size: 1.5rem;
 }

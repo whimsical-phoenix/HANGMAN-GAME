@@ -1,11 +1,24 @@
 /* LetterButtons.css */
 
-/* .letter-buttons {
+.letter-buttons {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-bottom: 20px;
   touch-action: manipulation; /* Enable touch events on mobile */
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  touch-action: manipulation; /* Enable touch events on mobile */
+  transition: opacity 0.3s ease; /* Add a transition effect for opacity */
+}
+
+button.used {
+  opacity: 0.5; /* Set opacity for used letters */
+}
 
 /* button[disabled] {
   cursor: not-allowed;
@@ -17,7 +30,7 @@
 .letter-buttons {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   margin-bottom: 20px;
   touch-action: manipulation; /* Enable touch events on mobile */
 
@@ -31,9 +44,6 @@ button {
   cursor: pointer;
   touch-action: manipulation; /* Enable touch events on mobile */
   transition: opacity 0.3s ease; /* Add a transition effect for opacity */
-
-  /* Additional styles for mobile responsiveness */
-  flex: 1 0 40%; /* Adjust the button width for small screens */
 }
 
 button.used {
@@ -43,10 +53,6 @@ button.used {
 /* Media query for screens smaller than 600px (adjust as needed) */
 @media only screen and (max-width: 600px) {
   .letter-buttons {
-    gap: 5px; /* Reduce the gap between buttons for smaller screens */
-  }
-
-  button {
-    flex: 1 0 48%; /* Adjust button width for smaller screens */
+    gap: 8px; /* Reduce the gap between buttons for smaller screens */
   }
 }
