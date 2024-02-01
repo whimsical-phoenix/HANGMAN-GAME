@@ -503,6 +503,10 @@ const Game = () => {
       <button className="refresh" onClick={resetGame}>
         New Game
       </button>
+      <footer className="footer">
+        {" "}
+        Prapti Shah <span>&#128126;</span> 2024
+      </footer>
     </div>
   );
 };
