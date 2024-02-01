@@ -33,6 +33,7 @@ button[disabled] {
 /* src/App.css */
 .App {
   text-align: center;
+  color: blanchedalmond;
 }
 
 .game-container {
