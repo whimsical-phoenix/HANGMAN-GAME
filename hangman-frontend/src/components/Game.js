@@ -478,8 +478,8 @@ const Game = () => {
       {/* New: Category Section */}
       <div className="category-section">
         <p>
-          Category: -
-          <span style={{ textTransform: "uppercase" }}>{category}</span>-
+          Category:
+          <span style={{ textTransform: "uppercase" }}>{category}</span>
         </p>
       </div>
 
