@@ -477,7 +477,10 @@ const Game = () => {
       <BackgroundCanvas />
       {/* New: Category Section */}
       <div className="category-section">
-        <p>Category: -{category}-</p>
+        <p>
+          Category: -
+          <span style={{ textTransform: "uppercase" }}>{category}</span>-
+        </p>
       </div>
 
       <h1>Hangman Game</h1>
