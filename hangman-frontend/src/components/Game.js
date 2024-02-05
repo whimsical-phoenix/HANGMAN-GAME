@@ -508,7 +508,8 @@ const Game = () => {
       </button>
       <footer className="footer">
         {" "}
-        Prapti Shah <span>&#128126;</span> 2024
+        Prapti Shah <span>&#128126;</span>{" "}
+        <script>document.write(new Date().getFullYear());</script>
       </footer>
     </div>
   );
