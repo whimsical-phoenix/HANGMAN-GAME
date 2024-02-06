@@ -508,7 +508,7 @@ const Game = () => {
       </button>
       <footer className="footer">
         {/* {" "} */}
-        Prapti Shah <span>&#128126;</span> {new Date().getFullYear()};
+        Prapti Shah <span>&#128126;</span> {new Date().getFullYear()}
       </footer>
     </div>
   );
